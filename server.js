@@ -1,5 +1,5 @@
 const express = require('express');
-const mongoose = require('./config/db'); // Updated to use the db.js file
+const mongoose = require('./config/db'); 
 const cors = require('cors');
 const transactionRoutes = require('./routes/transactionRoutes');
 
